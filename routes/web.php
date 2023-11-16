@@ -14,5 +14,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
+    $saluto = '"Hello World"';
+    $name = 'Antonio';
+    $surname = 'Faddanno';
+    $colors = ['rosso', 'giallo', 'verde', 'blu', 'magenta', 'beige', 'arancione'];
+    return view('home', compact('saluto', 'name', 'surname', 'colors'));
 });

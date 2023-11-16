@@ -63,6 +63,8 @@
             @endforeach
         </ul>
 
+        <p class="my-3">{{$comment}}</p>
+
         <h3 class="my-4">N.B. *</h3>
         <p>Cit. "Io ci dormo... fra due guanciali"</p>
         <p><em>Giorgione</em></p>
